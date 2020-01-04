@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">    
+    <link rel="stylesheet" href="css/index_style.css">
+
+
+</head>
+
+    <body class="bg-dark text-light">
+    
+        <div class="container m-5">
+                <div class="form-group w-75 m-auto">
+                        <label for="fname"> First   Name</label>
+                        <input type="text" name="fname" id="fname" class="form-control" placeholder=" first name" >
+                      </div>
+                      <div class="form-group w-75 m-auto">
+                            <label for="sname"> Second Name</label>
+                            <input type="text" name="sname" id="sname" class="form-control" placeholder=" second name" >
+                          </div>
+                          <div class="form-group w-75 m-auto">
+                                <label for="salary">salary </label>
+                                <input type="text" name="salary" id="salary" class="form-control" placeholder=" your salary" >
+                              </div>
+                              <div class="form-group w-75 m-auto">
+                                    <label for="job">job Description </label>
+                                    <textarea type="text" name="job" id="job" class="form-control" placeholder="job Description" > </textarea>
+                                  </div>
+                                  <div class="form-group w-75 m-auto">
+                                        <label for="seg"> Customer Segmentation  </label>
+                                        <input type="text" name="seg" id="seg" class="form-control" placeholder="Customer Segmentation " > 
+                                      </div>
+                        <div class="text-center m-3">  <button  onclick="addCustomer()" type="button" class="btn btn-primary text-center"> add customer</button></div>
+                         
+                      
+        </div>
+        <h3 class="text-center"> Our customers  </h3>
+        <input onkeyup="Search(this)" type="text" name="search" id="search" class="form-control w-75 m-auto " placeholder="search by first name .. " > 
+        
+<div class="container m-5">
+ 
+    <div class="row" id="custRow">
+           
+           
+     </div>
+</div>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+
+    </body>
+
+
+</html>

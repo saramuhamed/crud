@@ -1,0 +1,14 @@
+.cust-info{
+
+    position: relative;
+}
+
+
+.salary{
+
+position: absolute;
+top: 0;
+right: 15px;
+background-color: blueviolet;
+
+}
